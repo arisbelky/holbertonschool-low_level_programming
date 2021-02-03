@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * main
- * returns 0
+/**
+ *main-serves as the starting point for program execution
+ *Return: ends the execution of a function
  */
 int main(void)
 {
