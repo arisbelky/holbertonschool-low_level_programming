@@ -5,17 +5,10 @@
  */
 int main(void)
 {
-	char charType;
-	short shortType;
-	int intType;
-	long longType;
-	float floatType;
-
-	printf("Size of a char:%lubytes\n" sizeof(charType));
-	printf("Size of a short:%lubytes\n" sizeof(shortType));
-	printf("Size of int:%lu bytes\n" sizeof(intType));
-	printf("Size of long:%lu bytes\n" sizeof(longType));
-	printf("Size of float:%lu bytes\n" sizeof(floatType));
-	printf("Size of float:%lu bytes\n" sizeof(floatType));
+	printf("Size of a char:%lu byte(s)\n", sizeof(char));
+	printf("Size of an int:%lu byte(s)\n", sizeof(int));
+	printf("Size of a long int:%lu byte(s)\n", sizeof(long));
+	printf("Size of a long long int:%lu byte(s)\n", sizeof(long long));
+	printf("Size of a float:%lu byte(s)\n", sizeof(float));
 	return (0);
 }
