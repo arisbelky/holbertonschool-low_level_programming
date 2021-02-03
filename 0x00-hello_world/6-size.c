@@ -1,10 +1,9 @@
 #include <stdio.h>
-/*
- * main
- * printing size of variables
- * return allways 0
+/**
+ * main -Serves as the starting point for program execution
+ * Return: ends the execution of a function
  */
-int main()
+int main(void)
 {
 	char charType;
 	short shortType;
@@ -17,5 +16,5 @@ int main()
 	printf("Size of int:\n" sizeof(intType);
 	printf("Size of long:\n" sizeof(longType);
 	printf("Size of float:\n" sizeof(floatType);
-	return(0);
+	return (0);
 }
