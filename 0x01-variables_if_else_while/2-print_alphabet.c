@@ -4,7 +4,7 @@
  * main -serves as the starting point for program execution
  * Return: ends the execution
  */
-int main()
+int main(void)
 {
 	char c = 'a';
 
