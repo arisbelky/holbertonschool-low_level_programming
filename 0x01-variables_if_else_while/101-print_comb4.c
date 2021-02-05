@@ -8,19 +8,22 @@ int main(void)
 {
 	int i, n, a;
 
-	for (i = '0'; i <= '7'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (n = '1'; n <= '8'; n++)
+		for (n = '0'; n <= '9'; n++)
 		{
-			for (a = '2'; a <= '9'; a++)
+			for (a = '0'; a <= '9'; a++)
 			{
-				putchar(i);
-				putchar(n);
-				putchar(a);
-				if (i < '7' || n < '8' || a < '9')
+				if (a > n && n > i)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(n);
+					putchar(a);
+					if (a != '9' || n != '8' || i != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
