@@ -1,3 +1,4 @@
+#include "holberton.h"
 #include <stdio.h>
 /**
  * holberton libraries
@@ -6,6 +7,15 @@
  */
 int main(void)
 {
-	printf("Holberton\n");
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	putchar('\n');
 	return (0);
 }
