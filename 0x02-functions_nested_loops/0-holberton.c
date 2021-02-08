@@ -1,7 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * holberton libraries
  * main -start the program
  * Return: 0
  */
