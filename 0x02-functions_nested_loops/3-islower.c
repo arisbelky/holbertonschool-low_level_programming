@@ -9,7 +9,7 @@ int _islower(int c)
 	int e = 97;
 	int g = 122;
 
-	if (e <= c && c <= g )
+	if (e <= c && c <= g)
 	{
 		return (1);
 	}
